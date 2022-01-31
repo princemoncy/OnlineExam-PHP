@@ -1,0 +1,119 @@
+
+ body{
+  font-family: 'Ubuntu', sans-serif;
+  
+ }
+ 
+ .btn {
+    width: 50%;
+    margin: auto;
+    background: linear-gradient( 
+180deg
+ , #ff8956, #ff5574);
+    color: white;
+}
+ 
+ .fas:hover{
+     
+       color: #ff8956;
+ }
+ a {
+    color: #ff5574;
+    text-decoration: none;
+    background-color: #d2000000;
+}
+  .bg-light {
+   /* background: linear-gradient(49deg, red, #2747e4) !important;*/
+ background: linear-gradient(
+90deg
+, #ff8956, #ff5574);
+}
+.btn {
+    width: 90%;
+    margin: auto;
+}
+.btn:hover{
+  transition: all .5s;
+   background: linear-gradient(
+180deg
+, #ff8956, #ff5574);
+}
+.stu{
+  width: 100%;
+    margin: auto;
+}
+.stu:hover{
+  transition: all .5s;
+ background: linear-gradient(
+90deg
+,#ff5574,#ff8956);
+
+}
+	.navbtn{
+		width: 100%;
+		background: white;
+    border-radius: 0px;
+    border: none;
+		}
+    .navbtn:hover{
+      background: linear-gradient(
+90deg
+,#ff5574,#ff8956);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      transition: all .5s;
+      border-radius: 5px;     
+    }
+    a:hover{
+      color: white;
+    }
+   
+    .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    background: white;
+}
+@media (min-width:992px) {   
+ 
+  .vertical-nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 59px;
+    box-shadow:  -4px 8px 7px 0px black;
+}
+  .btn {
+    width: 50%;
+    margin: auto;
+     background: linear-gradient(
+180deg
+, #ff8956, #ff5574);
+    color: white;
+}
+
+.stu{
+  width: 100%;
+    margin: auto;
+    transition:all .3s;
+    background: linear-gradient(
+90deg
+, #ff8956, #ff5574);
+    color: white;
+
+}
+
+.navbtn{
+		width: 100%;
+		background: white;
+    overflow: hidden;
+	}
+  .navbtn:hover{
+    width: 80%; 
+  }
+}
